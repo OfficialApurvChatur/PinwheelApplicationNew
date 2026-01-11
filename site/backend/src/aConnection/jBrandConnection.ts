@@ -1,16 +1,16 @@
 const brandConnection = {
-  aBrandID: "boilerplate",
-  bBrandName: "Boilerplate",
+  aBrandID: "pinwheel",
+  bBrandName: "Pinwheel Organisation",
 
-  cFrontendApplicationName: "Boilerplate Frontend",
-  dAdministrationApplicationName: "Boilerplate Administration",
-  eBackendApplicationName: "Boilerplate Backend",
+  cFrontendApplicationName: "Pinwheel Frontend",
+  dAdministrationApplicationName: "Pinwheel Administration",
+  eBackendApplicationName: "Pinwheel Backend",
 
-  fFrontendApplicationURL: "https://boilerplate-frontend-v02.netlify.app",
-  gAdminApplicationURL: "https://boilerplate-admin-v02.netlify.app",
-  hBackendApplicationURL: "https://boilerplate-backend-v02.netlify.app",
+  fFrontendApplicationURL: "https://pinwheel-frontend-v02.netlify.app",
+  gAdminApplicationURL: "https://pinwheel-admin-v02.netlify.app",
+  hBackendApplicationURL: "https://pinwheel-backend-v02.netlify.app",
 
-  iEmailName: "@boilerplate.com",
+  iEmailName: "@pinwheel.com",
 
   jInstagramURL: "https://www.google.com/",
   kXURL: "https://www.google.com/",
@@ -24,7 +24,7 @@ const brandConnection = {
       : this.pBackendLocalURL;
   },
   pBackendLocalURL: "http://localhost:8000",
-  qBackendProductionURL: "https://boilerplate-backend-v02.onrender.com",
+  qBackendProductionURL: "https://pinwheel-backend-v02.onrender.com",
 
   get rFrontendBaseURL() {
     return process.env.ENVIRONMENT === "Production" ? [ 
@@ -51,10 +51,10 @@ const brandConnection = {
   sFrontendLocalURL7: "http://localhost:5179",
   sFrontendLocalURL8: "http://localhost:5180",
   sFrontendLocalURL9: "http://localhost:5181",
-  tFrontendProductionURL1: "https://boilerplate-admin-v02.netlify.app",
-  tFrontendProductionURL2: "https://boilerplate-frontend-v02.netlify.app",
+  tFrontendProductionURL1: "https://pinwheel-admin-v02.netlify.app",
+  tFrontendProductionURL2: "https://pinwheel-frontend-v02.netlify.app",
 
-  uTagName: "Skip setup. Start building.",
+  uTagName: "Turning Compassion Into Action",
 }
 
 export default brandConnection;
