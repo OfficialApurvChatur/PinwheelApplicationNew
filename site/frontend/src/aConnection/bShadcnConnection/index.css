@@ -272,7 +272,7 @@ html, body, #root {
 } */
 
 /* Pinwheel */
-/* @layer base {
+@layer base {
   :root {
     --background: 78 82% 73%; 
     --foreground: 250 63% 51%; 
@@ -364,7 +364,7 @@ html, body, #root {
     --sidebar-border: 250 35% 40%;
     --sidebar-ring: 78 82% 73%;
   }
-} */
+}
 
 /* Tadpole */
 /* @layer base {
@@ -1222,7 +1222,7 @@ html, body, #root {
 } */
 
 /* Boilerplate */
-@layer base {
+/* @layer base {
   :root {
     --background: 312 43% 82%; 
     --foreground: 180 100% 3%; 
@@ -1314,7 +1314,7 @@ html, body, #root {
     --sidebar-border: 180 30% 14%;
     --sidebar-ring: 312 43% 82%;
   }
-}
+} */
 
 /* Chattrix */
 /* @layer base {
