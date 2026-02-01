@@ -55,6 +55,11 @@ const brandConnection = {
   tFrontendProductionURL2: "https://pinwheel-frontend-v02.netlify.app",
 
   uTagName: "Turning Compassion Into Action",
+
+  vMainApplication: "Pinwheel Application",
+  vFrontendApplication: "Pinwheel Application (Frontend)",
+  vAdminApplication: "Pinwheel Application (Admin)",
+  vBackendApplication: "Pinwheel Application (Backend)",
 }
 
 export default brandConnection;
